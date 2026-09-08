@@ -1,0 +1,104 @@
+{
+	"pages": [
+		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		//甜品首页
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#FFF9F4"
+			}
+		},
+		//甜品商品页
+		{
+			"path": "pages/goods/index",
+			"style": {
+				"navigationBarTitleText": "菜单",
+				"navigationBarBackgroundColor": "#FFF9F4",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FFF9F4"
+			}
+		},
+		//甜品个人中心
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FFF9F4",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FFF9F4"
+			}
+		},
+		//商品详情
+		{
+			"path": "pages/goods/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "商品详情",
+				"backgroundColor": "#FFF9F4"
+			}
+		},
+		//个人资料编辑
+		{
+			"path": "pages/mine/profile",
+			"style": {
+				"navigationBarTitleText": "编辑资料",
+				"navigationBarBackgroundColor": "#FFF9F4",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FFF9F4"
+			}
+		},
+		//关于我们
+		{
+			"path": "pages/mine/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#FFF9F4",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FFF9F4"
+			}
+		}
+
+
+
+
+	],
+	"subPackages": [{
+		"root": "pages/API",
+		"pages": [
+
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "花样馒头·轻食工坊",
+		"navigationBarBackgroundColor": "#FFF9F4",
+		"backgroundColor": "#FFF9F4"
+
+	},
+	"tabBar": {
+		"color": "#9A8E85",
+		"selectedColor": "#A67B5B",
+		"borderStyle": "white",
+		"backgroundColor": "#FFF9F4",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"text": "首页",
+			"iconPath": "static/images/food/tab-home.png",
+			"selectedIconPath": "static/images/food/tab-home-active.png"
+		}, {
+			"pagePath": "pages/goods/index",
+			"text": "菜单",
+			"iconPath": "static/images/food/tab-goods.png",
+			"selectedIconPath": "static/images/food/tab-goods-active.png"
+		}, {
+			"pagePath": "pages/mine/index",
+			"text": "我的",
+			"iconPath": "static/images/food/tab-mine.png",
+			"selectedIconPath": "static/images/food/tab-mine-active.png"
+		}]
+	}
+}

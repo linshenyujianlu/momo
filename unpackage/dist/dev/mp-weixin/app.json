@@ -1,0 +1,56 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/index/myActivity",
+        "pages/index/activityDetail",
+        "pages/index/activityList",
+        "pages/index/login",
+        "pages/index/agreement",
+        "pages/index/accountList",
+        "pages/index/orderPay",
+        "pages/index/grade",
+        "pages/index/school",
+        "pages/index/userInfo",
+        "pages/index/mine",
+        "pages/index/mysignup",
+        "pages/index/signUpSuccess",
+        "pages/index/courseDetail"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "智慧学堂",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#d3e8fa"
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#666666",
+        "selectedColor": "#0d8af4",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": ""
+            },
+            {
+                "pagePath": "pages/index/mysignup",
+                "text": ""
+            },
+            {
+                "pagePath": "pages/index/mine",
+                "text": ""
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "为了准确获取到校区与您的距离"
+        }
+    },
+    "usingComponents": {
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.grade.data-v-ac16e91e {
+  min-height: 100vh;
+  width: 100%;
+  padding: 30rpx 25rpx;
+  padding-bottom: 200rpx;
+  padding-top: 120rpx;
+  background-color: #f7f7f7;
+}
+.grade .btn-box.data-v-ac16e91e {
+  width: 100%;
+  height: 90rpx;
+  background: #ffffff;
+  border-bottom: 1rpx solid #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.grade .btn-box .del-btn.data-v-ac16e91e {
+  width: 100rpx;
+  height: 46rpx;
+  background-image: linear-gradient(90deg, #f85f62 0%, #fc3f42 100%);
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 46rpx;
+  color: #ffffff;
+  font-size: 26rpx;
+}
+.grade .btn-box .del-tex.data-v-ac16e91e {
+  font-size: 30rpx;
+  color: #666666;
+  font-weight: bold;
+}
+.grade .add-box.data-v-ac16e91e {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  min-height: 118rpx;
+  padding: 25rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 30rpx;
+  background: #ffffff;
+}
+.grade .add-box .add-btn.data-v-ac16e91e {
+  width: 300rpx;
+  height: 76rpx;
+  background-image: linear-gradient(92deg, #63b8ff 0%, #1f88f6 100%);
+  border-radius: 38rpx;
+  text-align: center;
+  line-height: 76rpx;
+  font-size: 28rpx;
+  color: #ffffff;
+  margin-left: 30rpx;
+}
+.grade .add-box .price-box.data-v-ac16e91e {
+  flex: 1;
+}
+.grade .add-box .price-box .price-youhui.data-v-ac16e91e {
+  font-size: 24rpx;
+  color: #fc751d;
+}
+.grade .add-box .price-box .price-num.data-v-ac16e91e {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.grade .add-box .price-box .price-num .heji.data-v-ac16e91e {
+  font-size: 28rpx;
+  color: #333333;
+  padding-top: 2rpx;
+}
+.grade .add-box .price-box .price-num .price.data-v-ac16e91e {
+  font-size: 44rpx;
+  color: #e74e3e;
+  font-weight: bold;
+}
+.grade .add-box .price-box .price-num .danwei.data-v-ac16e91e {
+  font-size: 26rpx;
+  color: #e74e3e;
+  margin: 0 4rpx;
+  padding-top: 8rpx;
+}
+.grade .add-box .price-box .icon-gouwuche2.data-v-ac16e91e {
+  color: #17172b;
+  font-size: 40rpx;
+}
+.grade .item.data-v-ac16e91e {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+}
+.grade .item.active.data-v-ac16e91e {
+  border: solid 1rpx #2089f6;
+}
+.grade .item .item-end.data-v-ac16e91e {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grade .item .item-end .end-right.data-v-ac16e91e {
+  width: 50%;
+}
+.grade .item .item-end .end-right .end-yuanjia.data-v-ac16e91e {
+  font-size: 28rpx;
+  color: #b6b9c0;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  text-align: right;
+}
+.grade .item .item-end .end-right .end-money.data-v-ac16e91e {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.grade .item .item-end .end-right .end-money .youhui.data-v-ac16e91e {
+  font-size: 24rpx;
+  color: #fc751d;
+  padding-top: 6rpx;
+}
+.grade .item .item-end .end-right .end-money .price.data-v-ac16e91e {
+  font-size: 44rpx;
+  color: #e74e3e;
+  font-weight: bold;
+}
+.grade .item .item-end .end-right .end-money .danwei.data-v-ac16e91e {
+  font-size: 26rpx;
+  color: #e74e3e;
+  margin: 0 4rpx;
+  padding-top: 8rpx;
+}
+.grade .item .item-end .end-left.data-v-ac16e91e {
+  width: 50%;
+}
+.grade .item .item-end .end-left .end-num.data-v-ac16e91e {
+  font-size: 26rpx;
+  color: #595d69;
+  padding-top: 6rpx;
+}
+.grade .item .item-end .end-left .end-is.data-v-ac16e91e {
+  font-size: 30rpx;
+  color: #2b2e48;
+  font-weight: bold;
+}
+.grade .item .line.data-v-ac16e91e {
+  width: 100%;
+  height: 1rpx;
+  border-bottom: solid 1rpx #dedfe1;
+  margin: 25rpx 0;
+}
+.grade .item .item-flex.data-v-ac16e91e {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6rpx;
+}
+.grade .item .item-flex .item-select.data-v-ac16e91e {
+  width: 44rpx;
+  height: 44rpx;
+  background-image: linear-gradient(0deg, #1f88f6 0%, #63b8ff 100%);
+  border-radius: 22rpx;
+  text-align: center;
+  line-height: 48rpx;
+  border: 1rpx solid rgba(255, 255, 255, 0);
+}
+.grade .item .item-flex .item-select .icon-duigou.data-v-ac16e91e {
+  color: #ffffff;
+  font-size: 28rpx;
+}
+.grade .item .item-flex .item-select.not.data-v-ac16e91e {
+  background: none;
+  border: 1rpx solid #b5b5b5;
+}
+.grade .item .item-flex .item-name.data-v-ac16e91e {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 26rpx;
+  color: #888c99;
+}
+.grade .item .item-flex .item-name .icon-navicon-grkh.data-v-ac16e91e {
+  color: #888c99;
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+.grade .item .item-address.data-v-ac16e91e {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15rpx;
+}
+.grade .item .item-address .adres-tex.data-v-ac16e91e {
+  flex: 1;
+  width: 0;
+  font-size: 26rpx;
+  color: #888c99;
+}
+.grade .item .item-address .icon-fenxiangsheding-dizhi.data-v-ac16e91e {
+  color: #888c99;
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+.grade .item .item-time.data-v-ac16e91e {
+  width: 100%;
+  font-size: 26rpx;
+  color: #888c99;
+  margin-top: 20rpx;
+}
+.grade .item .item-titbox.data-v-ac16e91e {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.grade .item .item-titbox .item-title.data-v-ac16e91e {
+  flex: 1;
+  width: 0;
+  font-size: 32rpx;
+  color: #2b2e48;
+  font-weight: bold;
+}
+.grade .item .item-titbox .item-type.data-v-ac16e91e {
+  min-width: 78rpx;
+  height: 36rpx;
+  border-radius: 0rpx 10rpx 0rpx 10rpx;
+  line-height: 36rpx;
+  text-align: center;
+  font-size: 24rpx;
+  color: #ffffff;
+  margin-right: 15rpx;
+  margin-top: 4rpx;
+}
+.grade .item .item-titbox .item-type.yingyu.data-v-ac16e91e {
+  background-image: linear-gradient(0deg, #1f89f6 0%, #63b8ff 100%);
+}
+.grade .item .item-titbox .item-type.shuxue.data-v-ac16e91e {
+  background-image: linear-gradient(0deg, #25c1da 0%, #45e4e7 100%);
+}
+.grade .item .item-titbox .item-type.yuwen.data-v-ac16e91e {
+  background-image: linear-gradient(0deg, #fc5f7f 0%, #fe999e 100%);
+}
+.grade .item .item-titbox .item-type.wuli.data-v-ac16e91e {
+  background-image: linear-gradient(0deg, #7a69f3 0%, #9c89f0 100%);
+}
+

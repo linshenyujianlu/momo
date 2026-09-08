@@ -1,0 +1,12 @@
+
+.search {
+	width: 400rpx !important;
+	height: 60rpx;
+	background-color: #ffffff;
+	box-shadow: 3rpx 4rpx 8rpx 1rpx rgba(0, 0, 0, 0.1);
+	border-radius: 34rpx;
+}
+.right {
+	position: relative;
+}
+
