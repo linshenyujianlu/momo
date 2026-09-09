@@ -91,6 +91,6 @@
         },
         "title" : "花样馒头·轻食工坊"
     },
-    "sassImplementationName" : "node-sass",
+    "sassImplementationName" : "sass",
     "locale" : "zh-Hans"
 }

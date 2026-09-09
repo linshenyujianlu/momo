@@ -3,21 +3,54 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:h5": "uni build -p h5"
+    "dev:h5": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p h5 --watch",
+    "build:h5": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p h5",
+    "build:app-plus": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p app-plus",
+    "build:mp-weixin": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-weixin",
+    "build:mp-alipay": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-alipay",
+    "build:mp-baidu": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-baidu",
+    "build:mp-toutiao": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-toutiao",
+    "build:mp-qq": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-qq",
+    "build:mp-360": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-360",
+    "build:mp-kuaishou": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-kuaishou",
+    "build:mp-jd": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p mp-jd",
+    "build:quickapp-native": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p quickapp-native",
+    "build:quickapp-webview": "NODE_OPTIONS=--openssl-legacy-provider uniapp-cli build -p quickapp-webview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/linshenyujianlu/momo.git"
+  "dependencies": {
+    "@dcloudio/uni-app-plus": "2.0.2-5020420260813001",
+    "@dcloudio/uni-h5": "2.0.2-5020420260813001",
+    "@dcloudio/uni-helper-json": "*",
+    "@dcloudio/uni-mp-alipay": "2.0.2-5020420260813001",
+    "@dcloudio/uni-mp-baidu": "2.0.2-5020420260813001",
+    "@dcloudio/uni-mp-qq": "2.0.2-5020420260813001",
+    "@dcloudio/uni-mp-toutiao": "2.0.2-5020420260813001",
+    "@dcloudio/uni-mp-weixin": "2.0.2-5020420260813001",
+    "@dcloudio/uni-stat": "2.0.2-5020420260813001",
+    "@dcloudio/uni-ui": "^1.5.7",
+    "bignumber.js": "^11.1.1",
+    "decimal.js": "^10.4.3",
+    "vue": "^2.6.11",
+    "vuex": "^3.2.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/linshenyujianlu/momo/issues"
+  "devDependencies": {
+    "@dcloudio/uni-automator": "2.0.2-5020420260813001",
+    "@dcloudio/uni-cli-shared": "2.0.2-5020420260813001",
+    "@dcloudio/uni-migration": "2.0.2-5020420260813001",
+    "@dcloudio/uni-template-compiler": "2.0.2-5020420260813001",
+    "@dcloudio/vue-cli-plugin-uni": "2.0.2-5020420260813001",
+    "@vue/cli-service": "^4.5.11",
+    "babel-plugin-import": "^1.11.0",
+    "cross-env": "^7.0.2",
+    "less-loader": "^5.0.0",
+    "mini-types": "*",
+    "postcss-comment": "^2.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   },
-  "homepage": "https://github.com/linshenyujianlu/momo#readme"
+  "engines": {
+    "node": ">=14"
+  }
 }
